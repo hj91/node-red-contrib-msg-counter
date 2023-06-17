@@ -1,0 +1,38 @@
+{
+  "name": "node-red-contrib-msg-counter",
+  "version": "1.0.0",
+  "description": "A Node-RED node that counts messages that pass through it",
+  "main": "msg-counter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hj91/node-red-contrib-msg-counter.git"
+  },
+  "keywords": [
+    "node-red",
+    "msg-counter",
+    "message",
+    "count",
+    "data-flow",
+    "flow-control"
+  ],
+  "author": "Harshad Joshi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hj91/node-red-contrib-msg-counter/issues"
+  },
+  "homepage": "https://github.com/hj91/node-red-contrib-msg-counter#readme",
+  "node-red": {
+    "version": ">=1.0.0",
+    "nodes": {
+      "msg-counter": "./msg-counter.js"
+    }
+  },
+  "files": [
+    "msg-counter.js",
+    "msg-counter.html"
+  ]
+}
+
